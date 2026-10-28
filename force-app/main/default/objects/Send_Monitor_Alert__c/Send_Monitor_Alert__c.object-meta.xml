@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>One record per alert sent by the send monitor. The unique key prevents the same alert from being sent twice, and the record is the target of the bell notification.</description>
+    <enableActivities>false</enableActivities>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <label>Send Monitor Alert</label>
+    <nameField>
+        <displayFormat>SMA-{00000}</displayFormat>
+        <label>Alert Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Send Monitor Alerts</pluralLabel>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

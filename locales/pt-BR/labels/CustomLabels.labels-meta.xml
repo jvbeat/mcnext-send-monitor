@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>SM_Channel_WhatsApp</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Channel WhatsApp</shortDescription>
+        <value>WhatsApp</value>
+    </labels>
+    <labels>
+        <fullName>SM_Channel_SMS</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Channel SMS</shortDescription>
+        <value>SMS</value>
+    </labels>
+    <labels>
+        <fullName>SM_Channel_Email</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Channel Email</shortDescription>
+        <value>E-mail</value>
+    </labels>
+    <labels>
+        <fullName>SM_Unknown_Content</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Unknown Content</shortDescription>
+        <value>conteúdo {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Content_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Content Title</shortDescription>
+        <value>{0} recusado: {1}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Content_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Content Body</shortDescription>
+        <value>{0} de {1} mensagens de "{2}" foram recusadas nas últimas {3} horas e não chegaram a ninguém.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Content_Action</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Content Action</shortDescription>
+        <value>Não reenvie antes de corrigir o conteúdo e conferir no Preview and Test.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Audience_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Audience Title</shortDescription>
+        <value>{0}: revise o segmento de {1}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Audience_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Audience Body</shortDescription>
+        <value>{0} de {1} mensagens de "{2}" não chegaram por causa da base nas últimas {3} horas.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Audience_Action</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Audience Action</shortDescription>
+        <value>O conteúdo está certo. Revise o segmento antes do próximo envio.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Detail_Line</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Detail Line</shortDescription>
+        <value>- {0} com {1}: {2}.</value>
+    </labels>
+    <labels>
+        <fullName>SM_No_Code</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM No Code</shortDescription>
+        <value>sem código</value>
+    </labels>
+    <labels>
+        <fullName>SM_Platform_Said</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Platform Said</shortDescription>
+        <value>a plataforma informou: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Typed_Variable</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Typed Variable</shortDescription>
+        <value>A mensagem saiu com o texto {0} no lugar do valor: a variável foi digitada em vez de escolhida no seletor de campos do conteúdo. Ligue a variável ao campo e dê um texto padrão a ela.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Meta_Count_None</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Meta Count None</shortDescription>
+        <value> (o conteúdo manda {0} e o modelo não tem nenhuma). Tire a variável do conteúdo</value>
+    </labels>
+    <labels>
+        <fullName>SM_Meta_Count</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Meta Count</shortDescription>
+        <value> (o conteúdo manda {0} e o modelo espera {1}). Ligue no conteúdo uma variável para cada '{{n}}' da prévia do modelo</value>
+    </labels>
+    <labels>
+        <fullName>SM_Missing_Data_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Missing Data Title</shortDescription>
+        <value>{0}: variável sem dado em {1}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Missing_Data_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Missing Data Body</shortDescription>
+        <value>{0} de {1} mensagens de "{2}" saíram com "{3}" na variável {4}, que parece ser o texto padrão. Essas pessoas não têm o dado desse campo. Revise o filtro do segmento ou a origem do campo.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Bounce_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Bounce Title</shortDescription>
+        <value>E-mail com bounce alto: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Bounce_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Bounce Body</shortDescription>
+        <value>{0} de {1} e-mails de "{2}" tiveram hard bounce nas últimas {3} horas ({4}%). Tire os endereços inválidos do segmento antes do próximo envio, porque bounce alto prejudica a entrega de todos os e-mails do domínio.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Failed_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Failed Title</shortDescription>
+        <value>Fluxo com falha: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Failed_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Failed Body</shortDescription>
+        <value>A execução de "{0}" às {1} falhou e não enviou nada. Confira o fluxo e o segmento dele no Marketing Cloud e execute de novo.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Errors_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Errors Title</shortDescription>
+        <value>Erros no fluxo: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Errors_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Errors Body</shortDescription>
+        <value>{0} de {1} pessoas que entraram em "{2}" às {3} tiveram erro e não terminaram o fluxo. Abra a execução no Marketing Cloud para ver o passo que falhou.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Missed_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Missed Title</shortDescription>
+        <value>Fluxo não executou: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Missed_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Missed Body</shortDescription>
+        <value>"{0}" executou por volta das {1} em {2} dos últimos 7 dias, inclusive no mesmo dia da semana passada, e não executou hoje. Confira se o fluxo continua ativo e se o segmento dele foi publicado.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Paused_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Paused Title</shortDescription>
+        <value>Fluxo pausado: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Paused_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Paused Body</shortDescription>
+        <value>"{0}" está pausado desde {1}. Nada agendado nele sai até ser retomado.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Platform_Detail</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Platform Detail</shortDescription>
+        <value>A plataforma informou: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Email_Detail_Line</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Email Detail Line</shortDescription>
+        <value>- {0}: {1}.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Monitor_Error_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Monitor Error Title</shortDescription>
+        <value>O monitor de envios não conseguiu fazer a conferência de {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Monitor_Error_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Monitor Error Body</shortDescription>
+        <value>A conferência falhou com: {0}. As demais conferências rodaram normalmente. Se o erro se repetir, confira se o usuário que executa o agendamento lê o Data Cloud e os objetos de execução de fluxo.</value>
+    </labels>
+</CustomLabels>

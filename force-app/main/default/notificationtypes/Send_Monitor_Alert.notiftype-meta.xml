@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>Send Monitor Alert</customNotifTypeName>
+    <description>Sent by the send monitor when Marketing Cloud sends are rejected, an e-mail send bounces, a variable goes out without data or a flow fails, pauses or does not run.</description>
+    <desktop>true</desktop>
+    <masterLabel>Send Monitor Alert</masterLabel>
+    <mobile>true</mobile>
+</CustomNotificationType>

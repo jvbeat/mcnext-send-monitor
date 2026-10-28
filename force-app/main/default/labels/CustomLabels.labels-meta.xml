@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>SM_Channel_WhatsApp</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Channel WhatsApp</shortDescription>
+        <value>WhatsApp</value>
+    </labels>
+    <labels>
+        <fullName>SM_Channel_SMS</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Channel SMS</shortDescription>
+        <value>SMS</value>
+    </labels>
+    <labels>
+        <fullName>SM_Channel_Email</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Channel Email</shortDescription>
+        <value>E-mail</value>
+    </labels>
+    <labels>
+        <fullName>SM_Unknown_Content</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Unknown Content</shortDescription>
+        <value>content {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Content_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Content Title</shortDescription>
+        <value>{0} rejected: {1}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Content_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Content Body</shortDescription>
+        <value>{0} of {1} messages of "{2}" were rejected in the last {3} hours and reached nobody.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Content_Action</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Content Action</shortDescription>
+        <value>Do not send again before fixing the content and checking it in Preview and Test.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Audience_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Audience Title</shortDescription>
+        <value>{0}: review the segment of {1}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Audience_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Audience Body</shortDescription>
+        <value>{0} of {1} messages of "{2}" did not arrive because of the audience in the last {3} hours.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Audience_Action</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Audience Action</shortDescription>
+        <value>The content is fine. Review the segment before the next send.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Detail_Line</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Detail Line</shortDescription>
+        <value>- {0} with {1}: {2}.</value>
+    </labels>
+    <labels>
+        <fullName>SM_No_Code</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM No Code</shortDescription>
+        <value>no code</value>
+    </labels>
+    <labels>
+        <fullName>SM_Platform_Said</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Platform Said</shortDescription>
+        <value>the platform reported: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Typed_Variable</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Typed Variable</shortDescription>
+        <value>The message went out with the text {0} in place of the value: the variable was typed instead of picked in the field selector of the content. Link the variable to the field and give it a default text.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Meta_Count_None</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Meta Count None</shortDescription>
+        <value> (the content sends {0} and the template has none). Remove the variable from the content</value>
+    </labels>
+    <labels>
+        <fullName>SM_Meta_Count</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Meta Count</shortDescription>
+        <value> (the content sends {0} and the template expects {1}). Link one variable to each '{{n}}' in the template preview</value>
+    </labels>
+    <labels>
+        <fullName>SM_Missing_Data_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Missing Data Title</shortDescription>
+        <value>{0}: variable without data in {1}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Missing_Data_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Missing Data Body</shortDescription>
+        <value>{0} of {1} messages of "{2}" went out with "{3}" in variable {4}, which looks like the default text. These people have no data for this field. Review the segment filter or the source of the field.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Bounce_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Bounce Title</shortDescription>
+        <value>E-mail with high bounce: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Bounce_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Bounce Body</shortDescription>
+        <value>{0} of {1} e-mails of "{2}" had a hard bounce in the last {3} hours ({4}%). Remove the invalid addresses from the segment before the next send, because a high bounce rate hurts the delivery of every e-mail of the domain.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Failed_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Failed Title</shortDescription>
+        <value>Flow failed: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Failed_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Failed Body</shortDescription>
+        <value>The run of "{0}" at {1} failed and sent nothing. Check the flow and its segment in Marketing Cloud and run it again.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Errors_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Errors Title</shortDescription>
+        <value>Errors in flow: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Errors_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Errors Body</shortDescription>
+        <value>{0} of {1} people who entered "{2}" at {3} hit an error and did not finish the flow. Open the run in Marketing Cloud to see the failed step.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Missed_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Missed Title</shortDescription>
+        <value>Flow did not run: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Missed_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Missed Body</shortDescription>
+        <value>"{0}" ran around {1} on {2} of the last 7 days, including the same weekday last week, and has not run today. Check whether the flow is still active and whether its segment published.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Paused_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Paused Title</shortDescription>
+        <value>Flow paused: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Flow_Paused_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Flow Paused Body</shortDescription>
+        <value>"{0}" is paused since {1}. Nothing scheduled in it goes out until it is resumed.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Platform_Detail</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Platform Detail</shortDescription>
+        <value>The platform reported: {0}</value>
+    </labels>
+    <labels>
+        <fullName>SM_Email_Detail_Line</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Email Detail Line</shortDescription>
+        <value>- {0}: {1}.</value>
+    </labels>
+    <labels>
+        <fullName>SM_Monitor_Error_Title</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Monitor Error Title</shortDescription>
+        <value>Send monitor could not run the {0} check</value>
+    </labels>
+    <labels>
+        <fullName>SM_Monitor_Error_Body</fullName>
+        <categories>Send Monitor</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SM Monitor Error Body</shortDescription>
+        <value>The check failed with: {0}. The other checks ran normally. If the error repeats, confirm that the running user can read Data Cloud and the flow run objects.</value>
+    </labels>
+</CustomLabels>

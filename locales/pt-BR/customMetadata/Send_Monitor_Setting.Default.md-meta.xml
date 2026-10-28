@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Window_Hours__c</field>
+        <value xsi:type="xsd:double">3</value>
+    </values>
+    <values>
+        <field>Min_Content_Errors__c</field>
+        <value xsi:type="xsd:double">3</value>
+    </values>
+    <values>
+        <field>Min_Audience_Errors__c</field>
+        <value xsi:type="xsd:double">10</value>
+    </values>
+    <values>
+        <field>Audience_Ratio__c</field>
+        <value xsi:type="xsd:double">0.3</value>
+    </values>
+    <values>
+        <field>Bounce_Ratio__c</field>
+        <value xsi:type="xsd:double">0.05</value>
+    </values>
+    <values>
+        <field>Fallback_Values__c</field>
+        <value xsi:type="xsd:string">cliente</value>
+    </values>
+    <values>
+        <field>Fallback_Ratio__c</field>
+        <value xsi:type="xsd:double">0.3</value>
+    </values>
+    <values>
+        <field>Fallback_Min_Sends__c</field>
+        <value xsi:type="xsd:double">20</value>
+    </values>
+    <values>
+        <field>Missed_Run_Grace_Minutes__c</field>
+        <value xsi:type="xsd:double">60</value>
+    </values>
+    <values>
+        <field>Recipients_Group__c</field>
+        <value xsi:type="xsd:string">Send_Monitor_Recipients</value>
+    </values>
+    <values>
+        <field>Sender_Address__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Subject_Prefix__c</field>
+        <value xsi:type="xsd:string">[Marketing Cloud]</value>
+    </values>
+    <values>
+        <field>Time_Zone__c</field>
+        <value xsi:type="xsd:string">America/Sao_Paulo</value>
+    </values>
+    <values>
+        <field>Check_Messages__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Check_Email__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Check_Flows__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

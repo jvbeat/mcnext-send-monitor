@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Flows__c</fullName>
+    <description>Check flow runs: failed runs, runs with errors, paused flows and flows that did not run.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Check Flows</label>
+    <defaultValue>true</defaultValue>
+    <type>Checkbox</type>
+</CustomField>

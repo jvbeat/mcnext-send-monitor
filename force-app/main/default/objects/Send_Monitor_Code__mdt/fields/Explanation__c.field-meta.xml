@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Explanation__c</fullName>
+    <description>What happened and what to do, written for whoever builds the send. Shown in the alert.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Explanation</label>
+    <type>TextArea</type>
+</CustomField>
